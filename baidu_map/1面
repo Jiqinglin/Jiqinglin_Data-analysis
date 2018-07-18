@@ -1,0 +1,38 @@
+此篇文章仅是对昨晚电话面试的一个简单复盘，并对未回答好的问题进行总结及个人技能说明，以及对面试官表达谢意
+# SQL题  
+***
+一个表visitor，有三个字段，分别为ID，time（访问时间），visit（对应时间的平均访问量）
+* 问题1：time字段分别为白天和晚上的整天平均访问次数  
+    1.建表   
+    ![](https://github.com/Jiqinglin/Jiqinglin_Data-analysis/raw/master/baidu_map/%E7%99%BD%E6%99%9A%E8%A1%A8.png)
+    2.执行语句和结果  
+![](https://github.com/Jiqinglin/Jiqinglin_Data-analysis/raw/master/baidu_map/%E7%BB%93%E6%9E%9C1.png)
+    
+* 问题2：time字段为确切时间时白天和晚上的平均访问次数（8：00：00——20：00：00为白天）  
+    1.建表  
+![](https://github.com/Jiqinglin/Jiqinglin_Data-analysis/raw/master/baidu_map/%E5%85%B7%E4%BD%93%E8%A1%A8.png)  
+    2.白天的平均访问人数执行语句及结果  
+![](https://github.com/Jiqinglin/Jiqinglin_Data-analysis/raw/master/baidu_map/%E7%99%BD%E5%A4%A9%E4%BA%BA%E6%95%B0.png)
+    3.晚上的平均访问人数执行语句及结果  
+![](https://github.com/Jiqinglin/Jiqinglin_Data-analysis/raw/master/baidu_map/%E6%99%9A%E4%B8%8A%E7%9A%84%E4%BA%BA%E6%95%B0.png)
+
+# 常见数据结构  
+* 线性表  
+    * 数组存储（连续存储单元）```适用于访问或修改）```  
+    * 链表（任意存储单元）  
+* 栈和队列  
+   * 栈 （访问，插入，删除在栈顶进行）```先进后出，后进先出```  
+   * 队列（访问，删除从列头进行，插入从列尾）  
+* 树和二叉树（非线性数据结构）  
+    * 二叉查找树（左子树均<根植；右子树的值均>根植）  
+    * 平衡二叉树（左右子树深度只差绝对值<1）  
+    * 红黑树（追求大致平衡，保证插入最多三次旋转达到平衡）  
+* 图    
+* 堆```插入删除快```
+    * 大根堆（完全二叉树所有非终点节点值>=左右孩子值）
+    * 小根堆（完全二叉树所有非终点节点值<=左右孩子值）
+# 个人技能 
+* python基础熟练，SQL熟悉（电话面试想的比较多）  
+* 虽未用过Hadoop，但用过其他大数据工具，例如MongoDB，redis，Oracle，mysql且其中MongoDB，redis，mysql有过实操经历，且有相关大数据概念  
+* 对linux环境熟悉，大三学期专业课程考核全是基于linux环境,对cd/pwd/echo/vi/mkdir/rm/chmod/等操作熟悉，且有过在linux上开发调试程序经历
+
